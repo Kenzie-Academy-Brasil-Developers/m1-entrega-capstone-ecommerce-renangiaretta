@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,400;1,100;1,200;1,300&family=Inter:wght@100;200;300;400;500;600&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F5F5;
+}
+.cabeçalho{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    box-shadow: 5px 2px 10px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    width: 30%;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu{
+    /* background-color: red; */
+    width: 40%;
+    color: #333333;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.menu a {
+    width: 20%;
+    text-decoration: none;
+    color: #333333;
+}
+
+.container {
+    display: flex;
+    margin: 10px 100px 30px 100px;
+    column-gap: 10px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.vitrine{
+    display: flex;
+}
+
+.lateral{
+    border:#F5F5F5;
+}
+
+.produtos{
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.ul_produto{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #F5F5F5;
+    width: 250px;
+    row-gap: 10px;
+}
+.card:hover{
+    border: 3px solid #37268c;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    margin-left: 10px;    
+    row-gap: 10px;
+    max-width: 80%;
+    max-height: 50%;
+}
+.info strong{
+    color: #2e245e;
+    font-weight: bold;
+}
+.nome {
+    color: #333333;
+}
+.descricao {
+    color: #828282;
+}
+.card img{
+    background-color: #F5F5F5;
+    width: 250px;
+    height: 180px;
+}
+.info h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+.info span{
+    color: #F5F5F5;
+    background-color: #2e245e;
+    width: 54px;
+    font-size: 11px;
+    padding: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.info p {
+    
+    
+}
+.button {
+    display: flex;
+    align-items: baseline;
+    justify-content:left;
+}
+.adcionar_carrinho {
+    display: flex;
+    background-color: #F5F5F5;
+    outline: none;
+    border: none;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.removeCart {
+    cursor: pointer;
+}
+.removeCart:hover{
+    color: #37268c;
+    text-decoration: underline;
+
+}
+.adcionar_carrinho:hover{
+    color: #37268c;
+    text-decoration: underline;
+}
+
+.lateral{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.barraPesquisa{
+    width: 350px;
+}
+
+
+.barraPesquisa input{
+    background-color: #f5f5f5;
+    border: none;
+    width: 250px;
+}
+.clicaPesquisa {
+    cursor: pointer;
+}
+input[type=text] {
+    height: 40px;
+    }
+.carrinho{
+    display:flex;
+    flex-direction: column;
+}
+.barraPesquisa button{
+    background-color: #37268c;
+    height: 40px;
+    width: 90px;
+    color: white;
+    border: none;
+}
+
+.carrinho_topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #37268c;
+    color: #F5F5F5;
+    font-size: 24px;
+    font-weight: 700px;
+    width: 350px;
+    height: 50px;
+
+}
+.carrinho_produto{
+    display: flex;
+    width: 350px;
+    max-height: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: #f5f5f5;
+    background-color: #f5f5f5;
+    row-gap: 10px;
+    overflow-y: scroll;
+
+}
+.ul_carrinho{
+    display: flex;
+    flex-direction: column;
+}
+
+.ul_carrinho li{
+    display: flex;
+    height: 100px;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #37268c;
+
+}
+.ul_carrinho div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+}
+.ul_carrinho button{
+    border: none;
+    background-color: #F5F5F5;
+}
